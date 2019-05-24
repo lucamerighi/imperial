@@ -1,5 +1,5 @@
 import React from "react";
-import styled from "styled-components";
+import styled from "../../utils/ThemedComponent";
 
 import { Button } from "../Buttons/Button";
 
@@ -30,6 +30,8 @@ export function Hero() {
     <Container>
       <Image
         src="https://www.imperialfashion.com/media/wysiwyg/IMPERIAL_SS19/Homepage/Imperial_HP-2MOBILE.jpg"
+        // srcSet="https://www.imperialfashion.com/media/wysiwyg/IMPERIAL_SS19/Homepage/Imperial_HP-2MOBILE.jpg 300w,
+        // https://www.imperialfashion.com/media/wysiwyg/IMPERIAL_SS19/Homepage/Imperial_HP-2_14.jpg 1920w"
         alt=""
       />
       <StyledButton>Scopri la campagna</StyledButton>
