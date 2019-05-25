@@ -8,11 +8,12 @@ const Container = styled.div`
   grid-row-gap: ${props => (props.primary ? "1rem" : "0")};
   padding: 1rem;
   box-sizing: border-box;
+  grid-template-columns: ${props =>
+    props.primary ? "1fr 1fr" : "1fr 1fr 1fr"};
+  grid-column-gap: ${props => (props.primary ? "2rem" : "3rem")};
 
   ${media.phone`
-    grid-template-columns: ${props =>
-      props.primary ? "1fr 1fr" : "1fr 1fr 1fr"};
-    grid-column-gap: ${props => (props.primary ? "2rem" : "3rem")};
+    grid-template-columns: 1fr;
   `}
 `;
 
