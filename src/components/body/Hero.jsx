@@ -1,7 +1,12 @@
 import React from "react";
-import styled from "../../utils/ThemedComponent";
+import styled, { media } from "../../utils/ThemedComponent";
 
 import { Button } from "../Buttons/Button";
+
+const mobileImg =
+  "https://www.imperialfashion.com/media/wysiwyg/IMPERIAL_SS19/Homepage/Imperial_HP-2MOBILE.jpg";
+const largeImg =
+  "https://www.imperialfashion.com/media/wysiwyg/IMPERIAL_SS19/Homepage/Imperial_HP-2_14.jpg";
 
 const Container = styled.div`
   width: 100%;
@@ -9,9 +14,22 @@ const Container = styled.div`
   position: relative;
 `;
 
-const Image = styled.img`
+const DesktopImage = styled.img`
   width: 100%;
   max-height: auto;
+
+  ${media.phone`
+    display: none;
+  `}
+`;
+
+const MobileImage = styled.img`
+  width: 100%;
+  max-height: auto;
+
+  ${media.desktop`
+    display: none;
+  `}
 `;
 
 const StyledButton = styled(Button)`
@@ -28,12 +46,8 @@ const StyledButton = styled(Button)`
 export function Hero() {
   return (
     <Container>
-      <Image
-        src="https://www.imperialfashion.com/media/wysiwyg/IMPERIAL_SS19/Homepage/Imperial_HP-2MOBILE.jpg"
-        // srcSet="https://www.imperialfashion.com/media/wysiwyg/IMPERIAL_SS19/Homepage/Imperial_HP-2MOBILE.jpg 300w,
-        // https://www.imperialfashion.com/media/wysiwyg/IMPERIAL_SS19/Homepage/Imperial_HP-2_14.jpg 1920w"
-        alt=""
-      />
+      <DesktopImage src={largeImg} alt="" />
+      <MobileImage src={mobileImg} alt="" />
       <StyledButton>Scopri la campagna</StyledButton>
     </Container>
   );
