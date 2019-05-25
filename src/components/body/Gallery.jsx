@@ -9,7 +9,7 @@ const Container = styled.div`
   padding: 1rem;
   box-sizing: border-box;
 
-  ${media.tablet`
+  ${media.phone`
     grid-template-columns: ${props =>
       props.primary ? "1fr 1fr" : "1fr 1fr 1fr"};
     grid-column-gap: ${props => (props.primary ? "2rem" : "3rem")};

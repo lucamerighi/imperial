@@ -26,9 +26,10 @@ const DesktopImage = styled.img`
 const MobileImage = styled.img`
   width: 100%;
   max-height: auto;
+  display: none;
 
-  ${media.desktop`
-    display: none;
+  ${media.phone`
+    display: block;
   `}
 `;
 
