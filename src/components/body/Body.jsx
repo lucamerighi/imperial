@@ -7,7 +7,6 @@ import { Card } from "../Card";
 
 const Container = styled.div`
   width: 100%;
-  padding: 0 1.5rem;
   box-sizing: border-box;
 `;
 

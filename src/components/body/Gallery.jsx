@@ -6,11 +6,11 @@ const Container = styled.div`
   height: auto;
   display: grid;
   grid-row-gap: ${props => (props.primary ? "1rem" : "0")};
-  padding: 1rem;
+  padding: 4rem;
   box-sizing: border-box;
   grid-template-columns: ${props =>
     props.primary ? "1fr 1fr" : "1fr 1fr 1fr"};
-  grid-column-gap: ${props => (props.primary ? "2rem" : "3rem")};
+  grid-column-gap: ${props => (props.primary ? "3rem" : "4rem")};
 
   ${media.phone`
     grid-template-columns: 1fr;

@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { media } from "../../utils/ThemedComponent";
 
 export const Button = styled.button`
   background-color: white;
@@ -11,7 +11,11 @@ export const Button = styled.button`
   justify-content: center;
   align-items: center;
   border: none;
-  width: 90%;
+  width: 50%;
+
+  ${media.phone`
+    width: 90%;
+  `}
 
   &:hover {
     background-color: black;
