@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/lucamerighi/imperial/static/css/main.498d002a.chunk.css",
-    "main.js": "/lucamerighi/imperial/static/js/main.cb859eda.chunk.js",
-    "main.js.map": "/lucamerighi/imperial/static/js/main.cb859eda.chunk.js.map",
-    "runtime~main.js": "/lucamerighi/imperial/static/js/runtime~main.5fbfe1b3.js",
-    "runtime~main.js.map": "/lucamerighi/imperial/static/js/runtime~main.5fbfe1b3.js.map",
-    "static/js/2.8baabc64.chunk.js": "/lucamerighi/imperial/static/js/2.8baabc64.chunk.js",
-    "static/js/2.8baabc64.chunk.js.map": "/lucamerighi/imperial/static/js/2.8baabc64.chunk.js.map",
-    "index.html": "/lucamerighi/imperial/index.html",
-    "precache-manifest.da91f80fd4dbdd700f7cb0df7b79c4a3.js": "/lucamerighi/imperial/precache-manifest.da91f80fd4dbdd700f7cb0df7b79c4a3.js",
-    "service-worker.js": "/lucamerighi/imperial/service-worker.js",
-    "static/css/main.498d002a.chunk.css.map": "/lucamerighi/imperial/static/css/main.498d002a.chunk.css.map"
+    "main.css": "/imperial/static/css/main.498d002a.chunk.css",
+    "main.js": "/imperial/static/js/main.cb859eda.chunk.js",
+    "main.js.map": "/imperial/static/js/main.cb859eda.chunk.js.map",
+    "runtime~main.js": "/imperial/static/js/runtime~main.89dcbf48.js",
+    "runtime~main.js.map": "/imperial/static/js/runtime~main.89dcbf48.js.map",
+    "static/js/2.ba180fdb.chunk.js": "/imperial/static/js/2.ba180fdb.chunk.js",
+    "static/js/2.ba180fdb.chunk.js.map": "/imperial/static/js/2.ba180fdb.chunk.js.map",
+    "index.html": "/imperial/index.html",
+    "precache-manifest.af50444d37fecc5d5fedf55a421321c1.js": "/imperial/precache-manifest.af50444d37fecc5d5fedf55a421321c1.js",
+    "service-worker.js": "/imperial/service-worker.js",
+    "static/css/main.498d002a.chunk.css.map": "/imperial/static/css/main.498d002a.chunk.css.map"
   }
 }
