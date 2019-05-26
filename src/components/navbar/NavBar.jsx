@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { NavIcon, Logo } from "./NavIcon";
 
 const Container = styled.div`
   width: 100%;
@@ -11,28 +12,25 @@ const Container = styled.div`
   z-index: 2;
   display: flex;
   align-items: center;
-  padding: 0 1rem;
+  // padding: 0 1rem;
 `;
 
-const MenuIcon = styled.img`
-  &:hover {
-    cursor: pointer;
-  }
-`;
-
-const Logo = styled(MenuIcon)`
-  width: 6.625rem;
-  height: 1.4375rem;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+const IconList = styled.ul`
+  list-style: none;
+  margin-left: ${props => (props.right ? "auto" : 0)};
 `;
 
 export function NavBar() {
   return (
     <Container>
-      <MenuIcon src="https://img.icons8.com/metro/26/000000/menu.png" />
+      <NavIcon src="https://img.icons8.com/metro/26/000000/menu.png" />
       <Logo src="https://www.imperialfashion.com/static/frontend/Imperial/Imperial/it_IT/imperial/svg/logo.svg" />
+
+      <IconList right>
+        <NavIcon src="https://img.icons8.com/ios/50/000000/search.png" />
+        <NavIcon src="https://img.icons8.com/ios/50/000000/like.png" />
+        <NavIcon src="https://img.icons8.com/windows/32/000000/shopping-bag.png" />
+      </IconList>
     </Container>
   );
 }
