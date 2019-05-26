@@ -17,19 +17,19 @@ const Container = styled.div`
 const DesktopImage = styled.img`
   width: 100%;
   max-height: auto;
+  display: none;
 
-  ${media.phone`
-    display: none;
+  ${media.desktop`
+    display: block;
   `}
 `;
 
 const MobileImage = styled.img`
   width: 100%;
   max-height: auto;
-  display: none;
 
-  ${media.phone`
-    display: block;
+  ${media.desktop`
+    display: none;
   `}
 `;
 
