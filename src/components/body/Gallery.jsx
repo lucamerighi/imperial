@@ -10,6 +10,12 @@ const Container = styled.div`
   box-sizing: border-box;
   grid-template-columns: 1fr;
 
+  ${media.tablet`
+    grid-template-columns: ${props =>
+      props.primary ? "1fr 1fr" : "1fr 1fr 1fr"};
+    grid-column-gap: ${props => (props.primary ? "3rem" : "4rem")};
+  `}
+
   ${media.desktop`
     grid-template-columns: ${props =>
       props.primary ? "1fr 1fr" : "1fr 1fr 1fr"};

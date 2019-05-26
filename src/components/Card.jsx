@@ -1,5 +1,5 @@
 import React from "react";
-import styled from "styled-components";
+import styled, { media } from "../utils/ThemedComponent";
 
 import { Button } from "./Buttons/Button";
 
@@ -22,6 +22,11 @@ const StyledButton = styled(Button)`
   padding: 1rem 4rem;
   line-height: 1.5rem;
   font-weight: 600;
+  width: 90%;
+
+  ${media.desktop`
+    width: 50%;
+  `}
 `;
 
 // const CardFooter = styled.div`
