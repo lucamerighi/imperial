@@ -20,10 +20,19 @@ const MenuIcon = styled.img`
   }
 `;
 
+const Logo = styled(MenuIcon)`
+  width: 6.625rem;
+  height: 1.4375rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+`;
+
 export function NavBar() {
   return (
     <Container>
       <MenuIcon src="https://img.icons8.com/metro/26/000000/menu.png" />
+      <Logo src="https://www.imperialfashion.com/static/frontend/Imperial/Imperial/it_IT/imperial/svg/logo.svg" />
     </Container>
   );
 }
