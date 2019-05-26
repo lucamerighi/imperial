@@ -11,10 +11,10 @@ export const Button = styled.button`
   justify-content: center;
   align-items: center;
   border: none;
-  width: 50%;
+  width: 90%;
 
-  ${media.phone`
-    width: 90%;
+  ${media.desktop`
+    width: 50%;
   `}
 
   &:hover {
