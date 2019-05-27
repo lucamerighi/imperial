@@ -2,7 +2,7 @@ import React from "react";
 import styled from "../../utils/ThemedComponent";
 
 const Icon = styled.img`
-  width: 2rem;
+  width: 1.5rem;
   height: auto;
   padding: 0.2rem;
   &:hover {
@@ -11,8 +11,8 @@ const Icon = styled.img`
 `;
 
 export const Logo = styled(Icon)`
-  width: 6.625rem;
-  height: 1.4375rem;
+  width: 30%;
+  height: auto;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);

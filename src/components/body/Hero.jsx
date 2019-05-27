@@ -16,7 +16,7 @@ const Container = styled.div`
 
 const DesktopImage = styled.img`
   width: 100%;
-  max-height: auto;
+  height: auto;
   display: none;
 
   ${media.tablet`
@@ -30,7 +30,9 @@ const DesktopImage = styled.img`
 
 const MobileImage = styled.img`
   width: 100%;
-  max-height: auto;
+  height: auto;
+  box-sizing: border-box;
+  padding: 0 1rem;
 
   ${media.tablet`
     display: none;
