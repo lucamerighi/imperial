@@ -1,7 +1,7 @@
 import React from "react";
 import styled, { media } from "../../utils/ThemedComponent";
 
-import { Button } from "../Buttons/Button";
+import { Button } from "../buttons/Button";
 
 const mobileImg =
   "https://www.imperialfashion.com/media/wysiwyg/IMPERIAL_SS19/Homepage/Imperial_HP-2MOBILE.jpg";

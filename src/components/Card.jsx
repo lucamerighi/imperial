@@ -1,7 +1,7 @@
 import React from "react";
 import styled, { media } from "../utils/ThemedComponent";
 
-import { Button } from "./Buttons/Button";
+import { Button } from "./buttons/Button";
 
 const Container = styled.div`
   width: 100%;
