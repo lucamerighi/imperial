@@ -13,7 +13,7 @@ const Container = styled.div`
   z-index: 2;
   display: flex;
   align-items: center;
-  padding: 2rem 1rem;
+  padding: 2rem 0.5rem;
 `;
 
 const IconList = styled.ul`
