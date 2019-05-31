@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/imperial/static/css/main.498d002a.chunk.css",
-    "main.js": "/imperial/static/js/main.cb859eda.chunk.js",
-    "main.js.map": "/imperial/static/js/main.cb859eda.chunk.js.map",
+    "main.css": "/imperial/static/css/main.34de6062.chunk.css",
+    "main.js": "/imperial/static/js/main.cc61e91e.chunk.js",
+    "main.js.map": "/imperial/static/js/main.cc61e91e.chunk.js.map",
     "runtime~main.js": "/imperial/static/js/runtime~main.89dcbf48.js",
     "runtime~main.js.map": "/imperial/static/js/runtime~main.89dcbf48.js.map",
     "static/js/2.ba180fdb.chunk.js": "/imperial/static/js/2.ba180fdb.chunk.js",
     "static/js/2.ba180fdb.chunk.js.map": "/imperial/static/js/2.ba180fdb.chunk.js.map",
     "index.html": "/imperial/index.html",
-    "precache-manifest.6dd0c21b7aa883db0add6b1253a76238.js": "/imperial/precache-manifest.6dd0c21b7aa883db0add6b1253a76238.js",
+    "precache-manifest.218d299c22b8be9a6320de6fcda93915.js": "/imperial/precache-manifest.218d299c22b8be9a6320de6fcda93915.js",
     "service-worker.js": "/imperial/service-worker.js",
-    "static/css/main.498d002a.chunk.css.map": "/imperial/static/css/main.498d002a.chunk.css.map"
+    "static/css/main.34de6062.chunk.css.map": "/imperial/static/css/main.34de6062.chunk.css.map"
   }
 }
