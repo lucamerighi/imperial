@@ -5,21 +5,21 @@ import { NavIcon, Logo } from "./NavIcon";
 const Container = styled.div`
   width: 100%;
   height: 5vh;
-  box-sizing: border-box;
+
   background-color: white;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 2;
   display: flex;
-  align-items: center;
-  padding: 2rem 0.5rem;
+  align-items: flex-start;
+  padding: 0rem 2rem 2rem 0.5rem;
 `;
 
 const IconList = styled.ul`
   list-style: none;
   margin-left: ${props => (props.right ? "auto" : 0)};
-  margin-right: ${props => (props.left ? "auto" : 0)};
+  margin-right: ${props => (props.left ? "auto" : "1rem")};
 `;
 
 export function NavBar() {

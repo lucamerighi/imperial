@@ -25,7 +25,7 @@ const StyledButton = styled(Button)`
   width: 90%;
 
   ${media.desktop`
-    width: 50%;
+    width: 60%;
   `}
 `;
 

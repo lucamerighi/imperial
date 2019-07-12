@@ -12,7 +12,7 @@ const Icon = styled.img`
 
 export const Logo = styled(Icon)`
   width: 30%;
-  height: auto;
+  height: 70%;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
